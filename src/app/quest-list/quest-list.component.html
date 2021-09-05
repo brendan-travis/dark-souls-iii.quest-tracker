@@ -1,26 +1,34 @@
 <style>
-  label {
-    font-family: "Segoe UI", serif;
-  }
 
-  .boss {
-    padding-top: 16px;
-  }
-
-  .boss > label {
-    font-size: 24px;
-  }
-
-  .location {
-    padding-top: 16px;
-  }
-
-  .location > label {
-    font-weight: bold;
-  }
 </style>
 
-<div *ngFor="let step of steps" [ngClass]="{'location': step.type===questType.location, 'boss': step.type===questType.boss}">
-  <input id="{{step.id}}" type="checkbox" *ngIf="step.type!==questType.location">
-  <label for="{{step.id}}">{{step.description}}</label>
+<mat-slide-toggle [(ngModel)]="leonhardIsVisible">Ringfinger Leonhard</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="greiratIsVisible">Greirat of the Undead Settlement</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="hawkwoodIsVisible">Hawkwood the Deserter</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="yoelIsVisible">Yoel/Yuria of Londor</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="cornyxIsVisible">Cornyx of the Great Swamp</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="irinaIsVisible">Irina of Carim</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="irinaGoodEndIsVisible">Irina of Carim - Good Ending</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="siegwardIsVisible">Siegward of Catarina</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="anriIsVisible">Anri of Astora</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="anriBadEndIsVisible">Anri of Astora - Bad Ending</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="anriGoodEndIsVisible">Anri of Astora - Good Ending</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="sirrisIsVisible">Sirris of the Sunless Realms</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="orbeckIsVisible">Orbeck of Vinheim</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="karlaIsVisible">Karla</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="lappIsVisible">Amnesiac Lapp</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="ashesOfAriandelIsVisible">Ashes of Ariandel</mat-slide-toggle>
+<mat-slide-toggle [(ngModel)]="theRingedCityIsVisible">The Ringed City</mat-slide-toggle>
+
+<div *ngFor="let step of steps" [ngClass]="{'location': step.type===questType.location, 'boss': step.type===questType.boss}" class="quest-list">
+  <div *ngIf="step.visible()">
+    <mat-checkbox *ngIf="step.type!==questType.location">{{step.description}}</mat-checkbox>
+    <label *ngIf="step.type===questType.location">{{step.description}}</label>
+    <mat-chip-list aria-label="Tags" class="chips">
+      <mat-chip *ngFor="let tag of step.tags" selected style="background-color:{{tag.colour}}">
+        {{tag.value}}
+      </mat-chip>
+    </mat-chip-list>
+  </div>
 </div>
+

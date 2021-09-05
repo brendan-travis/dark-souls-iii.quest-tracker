@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "Segoe UI", "Helvetica Neue", sans-serif; }
+
+.mat-chip-list-wrapper {
+  display: inline !important;
+}
+
+.mat-standard-chip {
+  min-height: 24px !important;
+}
+
+.boss {
+  padding-top: 16px;
+
+  .mat-checkbox-label {
+    font-size: 24px;
+  }
+}
+
+.location {
+  padding-top: 16px;
+
+  div {
+    label {
+      font-weight: bold;
+    }
+  }
+}
+
+.chips {
+  margin-left: 8px;
+}
+
+.quest-list {
+  margin-left: 24px;
+}

@@ -1,0 +1,26 @@
+<style>
+  label {
+    font-family: "Segoe UI", serif;
+  }
+
+  .boss {
+    padding-top: 16px;
+  }
+
+  .boss > label {
+    font-size: 24px;
+  }
+
+  .location {
+    padding-top: 16px;
+  }
+
+  .location > label {
+    font-weight: bold;
+  }
+</style>
+
+<div *ngFor="let step of steps" [ngClass]="{'location': step.type===questType.location, 'boss': step.type===questType.boss}">
+  <input id="{{step.id}}" type="checkbox" *ngIf="step.type!==questType.location">
+  <label for="{{step.id}}">{{step.description}}</label>
+</div>

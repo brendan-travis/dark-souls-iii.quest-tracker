@@ -1,7 +1,4 @@
-<style>
-
-</style>
-
+<!--TODO Extract the toggles into a separate component-->
 <mat-slide-toggle [(ngModel)]="leonhardIsVisible">Ringfinger Leonhard</mat-slide-toggle>
 <mat-slide-toggle [(ngModel)]="greiratIsVisible">Greirat of the Undead Settlement</mat-slide-toggle>
 <mat-slide-toggle [(ngModel)]="hawkwoodIsVisible">Hawkwood the Deserter</mat-slide-toggle>
@@ -20,6 +17,7 @@
 <mat-slide-toggle [(ngModel)]="ashesOfAriandelIsVisible">Ashes of Ariandel</mat-slide-toggle>
 <mat-slide-toggle [(ngModel)]="theRingedCityIsVisible">The Ringed City</mat-slide-toggle>
 
+<!--TODO Create top level component and move quest list into there-->
 <div *ngFor="let step of steps" [ngClass]="{'location': step.type===questType.location, 'boss': step.type===questType.boss}" class="quest-list">
   <div *ngIf="step.visible()">
     <mat-checkbox *ngIf="step.type!==questType.location">{{step.description}}</mat-checkbox>

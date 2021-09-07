@@ -1,4 +1,4 @@
-import { questType } from "../_enums/quest-type";
+import { questType } from "../enums/quest-type";
 import { questTag } from "./quest-tag";
 
 export interface QuestStep {

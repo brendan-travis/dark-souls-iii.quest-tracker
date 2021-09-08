@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1631081748918,
+  "timestamp": 1631082662024,
   "index": "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/index.html",
   "assetGroups": [
     {
@@ -43,16 +43,16 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-128x128.png": "e5f526fd1ecfa0ed0f66daaae042df4e922610aa",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-144x144.png": "8715ddd4e15f2ff421ebad3835e29c2626e7684a",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-152x152.png": "46808f62d1f291a10da1d6cf2b3cfa2b145e7248",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-192x192.png": "cb8e024bc17f73a8bfa65252403c0c35a16b5db5",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-384x384.png": "b910da3bd0930c1b720c9a2c1585079b60b99171",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-512x512.png": "42f96df03517ccbcfe45cb2567e6c2560684ed13",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-72x72.png": "520ad5e498dd5893b07699a41b0d8135066e3310",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-96x96.png": "5719cf268509e35db09c838237d2d8acb002999c",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/favicon.ico": "be87992ae2bc8ac476ee2e3e1127e6e22312976f",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/index.html": "ceec765372325b797febbea3f21477c1eb97290a",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/index.html": "09bfb40ee1934f89ff22e25c8febd7291fe0f16d",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/main.2f6ade7f1714f4b9e43e.js": "071323e804201fcd5a43ad8da110e2f395e3ca2d",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/manifest.webmanifest": "2a6deef5a532381ef229bf14b8421807c04097d4",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/polyfills.d78a6615a27fed102994.js": "587733df86298110da5cf955ca3329810c125334",

@@ -16,13 +16,18 @@ import { environment } from '../environments/environment';
 import {StorageService} from "./services/storage-service";
 import {QuestStepService} from "./services/quest-step-service";
 import {QuestStepFactory} from "./factories/quest-step-factory";
+import {MatButtonModule} from "@angular/material/button";
+import {MatBottomSheetModule} from "@angular/material/bottom-sheet";
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import {MatIconModule} from "@angular/material/icon";
 
 
 @NgModule({
   declarations: [
     AppComponent,
     QuestListComponent,
-    QuestTogglesComponent
+    QuestTogglesComponent,
+    MenuBarComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +36,9 @@ import {QuestStepFactory} from "./factories/quest-step-factory";
     MatChipsModule,
     MatCheckboxModule,
     MatSlideToggleModule,
+    MatButtonModule,
+    MatBottomSheetModule,
+    MatIconModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the app is stable

@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
+html, body { height: fit-content; }
 body { margin: 0; font-family: "Segoe UI", "Helvetica Neue", sans-serif; }
 
 .mat-chip-list-wrapper {
@@ -22,10 +22,8 @@ body { margin: 0; font-family: "Segoe UI", "Helvetica Neue", sans-serif; }
 .location {
   padding-top: 16px;
 
-  div {
-    label {
-      font-weight: bold;
-    }
+  label {
+    font-weight: bold;
   }
 }
 
@@ -35,4 +33,25 @@ body { margin: 0; font-family: "Segoe UI", "Helvetica Neue", sans-serif; }
 
 .quest-list {
   margin-left: 24px;
+}
+
+.heading {
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+  box-shadow: 0px -19px 11px 19px rgba(0,0,0,0.5);
+
+  h1 {
+    flex-grow: 1;
+  }
+}
+
+.toggle-backdrop {
+  display: flex;
+  flex-direction: column;
 }

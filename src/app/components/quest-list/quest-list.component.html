@@ -1,5 +1,5 @@
-<div *ngFor="let step of steps" [ngClass]="{'location': step.type===questType.location, 'boss': step.type===questType.boss}" class="quest-list">
-  <div *ngIf="step.visible()">
+<div *ngFor="let step of steps" class="quest-list">
+  <div *ngIf="step.visible()" [ngClass]="{'location': step.type===questType.location, 'boss': step.type===questType.boss}">
     <mat-checkbox *ngIf="step.type!==questType.location" [(ngModel)]="step.completed">{{step.description}}</mat-checkbox>
     <label *ngIf="step.type===questType.location">{{step.description}}</label>
     <mat-chip-list aria-label="Tags" class="chips">

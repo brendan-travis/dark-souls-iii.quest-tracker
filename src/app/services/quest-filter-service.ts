@@ -6,6 +6,57 @@ import {StorageService} from "./storage-service";
 })
 export class QuestFilterService {
   constructor(private storageService: StorageService) {
+    if(this.leonhardIsVisible === undefined) {
+      this.leonhardIsVisible = true;
+    }
+    if(this.greiratIsVisible === undefined) {
+      this.greiratIsVisible = true;
+    }
+    if(this.hawkwoodIsVisible === undefined) {
+      this.hawkwoodIsVisible = true;
+    }
+    if(this.yoelIsVisible === undefined) {
+      this.yoelIsVisible = true;
+    }
+    if(this.cornyxIsVisible === undefined) {
+      this.cornyxIsVisible = true;
+    }
+    if(this.irinaIsVisible === undefined) {
+      this.irinaIsVisible = true;
+    }
+    if(this.siegwardIsVisible === undefined) {
+      this.siegwardIsVisible = true;
+    }
+    if(this.anriIsVisible === undefined) {
+      this.anriIsVisible = true;
+    }
+    if(this.sirrisIsVisible === undefined) {
+      this.sirrisIsVisible = true;
+    }
+    if(this.orbeckIsVisible === undefined) {
+      this.orbeckIsVisible = true;
+    }
+    if(this.karlaIsVisible === undefined) {
+      this.karlaIsVisible = true;
+    }
+    if(this.lappIsVisible === undefined) {
+      this.lappIsVisible = true;
+    }
+    if(this.anriBadEndIsVisible === undefined) {
+      this.anriBadEndIsVisible = true;
+    }
+    if(this.anriGoodEndIsVisible === undefined) {
+      this.anriGoodEndIsVisible = true;
+    }
+    if(this.irinaGoodEndIsVisible === undefined) {
+      this.irinaGoodEndIsVisible = true;
+    }
+    if(this.ashesOfAriandelIsVisible === undefined) {
+      this.ashesOfAriandelIsVisible = true;
+    }
+    if(this.theRingedCityIsVisible === undefined) {
+      this.theRingedCityIsVisible = true;
+    }
   }
 
   get leonhardIsVisible(): boolean {

@@ -13,6 +13,9 @@ import {QuestTogglesComponent} from './components/quest-toggles/quest-toggles.co
 import {QuestFilterService} from "./services/quest-filter-service";
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import {StorageService} from "./services/storage-service";
+import {QuestStepService} from "./services/quest-step-service";
+import {QuestStepFactory} from "./factories/quest-step-factory";
 
 
 @NgModule({
@@ -36,7 +39,10 @@ import { environment } from '../environments/environment';
     })
   ],
   providers: [
-    QuestFilterService
+    QuestFilterService,
+    StorageService,
+    QuestStepService,
+    QuestStepFactory
   ],
   bootstrap: [AppComponent]
 })

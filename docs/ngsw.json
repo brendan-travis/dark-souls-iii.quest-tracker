@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1631084705685,
+  "timestamp": 1631162344640,
   "index": "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/favicon.ico",
         "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/index.html",
-        "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/main.e36b9614fcf5a2571b6f.js",
+        "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/main.c27e0d73e2a2ee1bdd90.js",
         "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/manifest.webmanifest",
         "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/polyfills.d78a6615a27fed102994.js",
         "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/runtime.a1fd26d97ec6607292c9.js",
@@ -52,8 +52,8 @@
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-72x72.png": "520ad5e498dd5893b07699a41b0d8135066e3310",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/assets/icons/icon-96x96.png": "5719cf268509e35db09c838237d2d8acb002999c",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/favicon.ico": "be87992ae2bc8ac476ee2e3e1127e6e22312976f",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/index.html": "372e14fe9392bc276a018f2250e6efcbe51e51a5",
-    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/main.e36b9614fcf5a2571b6f.js": "5f98f5b261a846b93c831552dd461ee9a25a5bfa",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/index.html": "f2130e1dc13e9ba2483f3505a5b34316e70272ea",
+    "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/main.c27e0d73e2a2ee1bdd90.js": "87363391e48d080226eb060114c63f361a8afb8b",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/manifest.webmanifest": "2a6deef5a532381ef229bf14b8421807c04097d4",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/polyfills.d78a6615a27fed102994.js": "587733df86298110da5cf955ca3329810c125334",
     "https://brendan-travis.github.io/dark-souls-iii.quest-tracker/runtime.a1fd26d97ec6607292c9.js": "12ba7a40d1ee0fcad008bff6b1084f2b88cf08c1",

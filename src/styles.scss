@@ -11,6 +11,10 @@ body { margin: 0; font-family: "Segoe UI", "Helvetica Neue", sans-serif; }
   min-height: 24px !important;
 }
 
+.mat-checkbox-label {
+  white-space: normal !important;
+}
+
 .boss {
   padding-top: 16px;
 
@@ -51,7 +55,16 @@ body { margin: 0; font-family: "Segoe UI", "Helvetica Neue", sans-serif; }
   }
 }
 
-.toggle-backdrop {
+.toggles-main {
   display: flex;
   flex-direction: column;
+}
+
+.toggles-actions {
+  margin-top: 16px;
+}
+
+.toggles-secondary-actions {
+  display: flex;
+  flex-direction: row-reverse;
 }

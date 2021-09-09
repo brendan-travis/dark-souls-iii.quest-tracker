@@ -1,4 +1,7 @@
-<div class="toggle-backdrop">
+<div class="toggles-secondary-actions">
+  <button mat-button (click)="close()"><mat-icon>close</mat-icon> Close</button>
+</div>
+<div class="toggles-main">
   <mat-slide-toggle [(ngModel)]="questFilterService.leonhardIsVisible">Ringfinger Leonhard</mat-slide-toggle>
   <mat-slide-toggle [(ngModel)]="questFilterService.greiratIsVisible">Greirat of the Undead Settlement</mat-slide-toggle>
   <mat-slide-toggle [(ngModel)]="questFilterService.hawkwoodIsVisible">Hawkwood the Deserter</mat-slide-toggle>
@@ -17,4 +20,7 @@
   <mat-slide-toggle [(ngModel)]="questFilterService.ashesOfAriandelIsVisible">Ashes of Ariandel</mat-slide-toggle>
   <mat-slide-toggle [(ngModel)]="questFilterService.theRingedCityIsVisible">The Ringed City</mat-slide-toggle>
 </div>
-
+<div class="toggles-actions">
+  <button mat-button (click)="selectAll()">Select All</button>
+  <button mat-button (click)="selectNone()">Select None</button>
+</div>

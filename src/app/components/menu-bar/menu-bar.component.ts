@@ -4,8 +4,7 @@ import {QuestTogglesComponent} from "../quest-toggles/quest-toggles.component";
 
 @Component({
   selector: 'app-menu-bar',
-  templateUrl: './menu-bar.component.html',
-  styleUrls: ['./menu-bar.component.scss']
+  templateUrl: './menu-bar.component.html'
 })
 export class MenuBarComponent {
   constructor(private bottomSheet: MatBottomSheet) {
